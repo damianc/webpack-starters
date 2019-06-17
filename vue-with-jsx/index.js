@@ -1,7 +1,7 @@
 import Vue from 'vue';
-import H1Component from './H1Component';
+import HComponent from './HComponent';
 
-Vue.component('primary-heading', H1Component);
+Vue.component('heading', HComponent);
 
 new Vue({
 	el: '#output',
