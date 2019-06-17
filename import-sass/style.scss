@@ -1,0 +1,15 @@
+$bg-primary: linear-gradient(45deg, #f0f0f0, #eee);
+
+%highlighted {
+	font-weight: bold;
+	font-size: 20px;;
+}
+
+body {
+	background-image: $bg-primary;
+
+	#output {
+		@extend %highlighted;
+		color: #333;
+	}
+}
