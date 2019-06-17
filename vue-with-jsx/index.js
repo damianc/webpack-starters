@@ -6,6 +6,7 @@ Vue.component('heading', HComponent);
 new Vue({
 	el: '#output',
 	data: {
-		pageTitle: 'My Homepage'
+		pageTitle: 'My Homepage',
+		pageResume: 'welcome on the bright side...'
 	}
 });
