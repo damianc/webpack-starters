@@ -1,7 +1,7 @@
-import Address from './iAddress.ts';
+import Address from './iAddress';
 
 export default class Component {
-	static nameHeading = 'h3';
+	static nameHeading: string = 'h3';
 
 	static companyName(name: string): HTMLElement {
 		var div = document.createElement('div');

@@ -1,4 +1,4 @@
-import Component from './Component.ts';
+import Component from './Component';
 
 var nameElem = Component.companyName('Dynamix');
 var addressElem = Component.companyAddress({
@@ -14,4 +14,4 @@ var companyItem = document.createElement('div');
 companyItem.appendChild(nameElem);
 companyItem.appendChild(addressElem);
 
-output.appendChild(companyItem);
+if (output) output.appendChild(companyItem);
