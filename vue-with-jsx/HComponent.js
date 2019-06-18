@@ -11,7 +11,7 @@ export default Vue.extend({
 
     	return (
     		<div>
-	    		<HTag>{content}</HTag>
+	    		<HTag {...{class:'title'}}>{content}</HTag>
           <extra.resume>{this.resume}</extra.resume>
     		</div>
     	);
