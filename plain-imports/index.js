@@ -1,4 +1,4 @@
-import Calc from './Calc';
+import Calc from '@app/Calc';
 
 var output = document.getElementById('output');
 var sum = Calc.sum(1, 2, 3, 4);
